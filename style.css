@@ -1,0 +1,284 @@
+html{
+height: 100%;
+}
+
+body{
+font-family: cursive;
+margin: 0;
+padding: 0;
+height: 100%;
+}
+.body-home {
+background-image: url('images/background2.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+} 
+.menu-details {
+background-image: url('images/background3.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+} 
+
+/*============ HEADER ============*/
+.header{
+background-image:url('images/the-menu.png');
+background-color: black;
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+height: 50px;
+top: 10;
+text-align: center;
+overflow: hidden;
+position: fixed;
+}
+.header i{
+float: left;
+padding: 17px 10px 10px 10px;
+color: white;
+}
+
+.header img{
+width: 150px;
+padding-top: 10px;
+padding-right: 25px; 
+}
+
+
+
+
+/*============ HOME PAGE ============*/
+
+#home-logo-img{
+width: 200px;
+display: block;
+margin: auto;
+border-radius: 100px;
+padding: 25px 10px 10px 10px;
+}
+
+
+
+
+/*==========HOME PAGE MENU==========*/
+
+
+
+.home-menu-item {
+text-decoration: none;
+text-transform: uppercase;
+color: aqua;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+border: 5px solid aqua;
+
+display: block;
+margin: auto;
+margin-bottom: 10px;
+width: 80%;
+}
+
+/*========== APPETIZERS PAGE ==========*/
+.appetizers {
+padding-top: 50px;
+}
+
+/*========== APPETIZERS PAGE MENU==========*/
+
+.appetizers-list a {
+text-decoration: none;
+}
+
+.appetizers-list-item {
+border: 5px solid aqua;
+margin: 10px;
+}
+.appetizers-list-item h1{
+font-weight: bold;
+font-size: 20px;
+color: aqua;
+padding-left: 10px;
+padding-top: 40px;
+}
+.appetizers-list-item i {
+float: right;
+color: white;
+padding-right: 10px;
+
+}
+
+.appetizers-list-item p {
+font-size: 15px;
+font-style: italic;
+color: aqua;
+margin-top: 10px;
+padding-left: 10px;   
+}
+/*========== MENU PAGE ==========*/
+#menu{
+padding-top: 50px;
+}
+
+/*========== MENU DETAILS  ==========*/
+.menu-details img{
+width: 100%;
+}
+.menu-details h1{
+font-size: 25px;
+text-align: center;
+border: 5px solid black;
+margin: 10px;
+padding: 5px;
+color: black;
+}
+
+.menu-details h2{
+font-size: 20px;
+text-align: left;
+margin: 0;
+margin-bottom: 10px;
+}
+
+
+.menu-details-info {
+margin-left: 25px;
+margin-right:25px; 
+}
+
+.menu-details-info p{
+font-size: 13px;
+display: inline-block;
+color: black;
+}
+.menu-details-info label{
+line-height: 25px;
+margin-left: 
+}
+
+
+/*============ORDER PAGE ============*/
+.info-box-full{
+background-color: bisque;
+width: 70%;
+display: block;
+margin: auto;
+margin-top: 60px;
+padding: 10px;
+}
+.info-box-img{
+width: 100%;
+}
+.order h2{
+text-align: center;
+color: white;
+}
+
+/*============ FORM  ===========*/
+
+input{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border:1px solid #929292;
+    
+    
+}
+
+.button{
+    display: block;
+    background-color:palevioletred;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;    
+}
+
+
+
+
+
+
+/*============RESPONSIVE LAYOUT ============*/
+
+@media only screen and (min-width:600px){
+#appetizers {
+width:80%; 
+margin: auto;
+    }
+ 
+@media only screen and (min-width:600px){
+#main-course {
+width:80%; 
+margin: auto;  
+ }
+
+@media only screen and (min-width:600px){
+#desert {
+width:80%; 
+margin: auto;
+    }
+ @media only screen and (min-width:600px){
+#drinks {
+width:80%; 
+margin: auto;  
+     }
+    
+    
+    
+    
+#menu-details-info {
+width: 80%;
+margin: auto;
+} 
+    
+@media only screen and (min-width:1500px){
+#appetizers {
+width:40%; 
+margin: auto;
+ }      
+
+@media only screen and (min-width:1500px){
+#main-course{
+width:40%; 
+margin: auto;
+ }          
+    
+ @media only screen and (min-width:1500px){
+#desert {
+width:40%; 
+margin: auto;
+ }         
+@media only screen and (min-width:1500px){
+#drinks {
+width:40%; 
+margin: auto;
+ }          
+    
+#menu-details-info {
+width: 40%;
+margin: auto;
+ } 
+
+ @media only screen and (min-width: 720){
+     .body-home{
+background-image: url('images/background2.jpg');
+     }     
+     .menu-details{
+    background-image: url('images/background3.jpg')
+     }       
+        
+    }
+
+
+
+
+
+
+
